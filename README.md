@@ -105,7 +105,7 @@ Two strategies were applied to address the 61/39 class imbalance:
 
 **Strategy 1 — Class Weights (Random Forest)**
 Applied class weighting to penalise misclassification of the minority class.
-Result: marginal improvement only — class weighting alone was insufficient.
+Result: marginal improvement only, class weighting alone was insufficient.
 
 **Strategy 2 — SMOTE (Synthetic Minority Oversampling)**
 Generated synthetic potable water samples to balance the training set.
@@ -114,7 +114,7 @@ safe water. Selected as the final recommended approach.
 
 **✅ Recommended Model: Random Forest with SMOTE**
 Chosen because it achieved the best balance between recall and F1-score
-for the positive class — the most critical metric when the objective is
+for the positive class, the most critical metric when the objective is
 correctly identifying safe drinking water.
 
 ---
@@ -122,13 +122,13 @@ correctly identifying safe drinking water.
 ## Key Findings
 
 - No single chemical feature cleanly separates potable from non-potable
-  water — class averages are surprisingly similar, requiring combined
+  water, class averages are surprisingly similar, requiring combined
   feature patterns for reliable classification
-- Logistic Regression is entirely unsuitable — linear decision boundaries
+- Logistic Regression is entirely unsuitable, linear decision boundaries
   cannot capture the complexity of water chemistry data
 - XGBoost achieved the highest recall before imbalance handling;
   Random Forest with SMOTE achieved the best post-imbalance performance
-- Clustering revealed a 0% potability cluster invisible to classifiers —
+- Clustering revealed a 0% potability cluster invisible to classifiers,
   demonstrating the value of combining unsupervised and supervised learning
 - Accuracy is a misleading metric on imbalanced data — **Recall and F1
   are the correct evaluation measures for this problem**
