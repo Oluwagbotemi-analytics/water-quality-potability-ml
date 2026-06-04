@@ -156,8 +156,8 @@ correctly identifying safe drinking water.
 ## Author
 
 **Oluwagbotemi Olanrewaju**
-Data Analyst | Data Science in Training
-[GitHub Profile](https://github.com/YOUR-USERNAME)
+Data Analyst | Data Scientist in Training
+[GitHub Profile](https://github.com/Oluwagbotemi-analytics)
 
 > *This project was completed as part of a team capstone assignment.
 > All analysis, code, and documentation were produced independently.*
