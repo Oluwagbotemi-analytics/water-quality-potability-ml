@@ -61,7 +61,7 @@ without relying solely on laboratory testing.
   validate class distribution, detect missing values, and compare average
   chemical levels between potable and non-potable samples
 - Confirmed missing values: pH (~15%), Sulfate (~24%), Trihalomethanes (~5%)
-- Filled missing values using **grouped median by Potability class** —
+- Filled missing values using **grouped median by Potability class**,
   preserves class-specific chemical signal rather than blurring it with
   a global statistic
 
